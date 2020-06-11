@@ -28,3 +28,4 @@ This project is basically all about the problems and hustle bustle faced by the 
      3. ResponseSpecifier Annotation:-This annotation specifies in what form the user wants to send the end result after a method               has been invoked.Three options are avalaible : **1) JSON:-** the result would sent in json form. **2) HTML/TEXT:-** the result           would be sent to the client in simple text form.**3) NOTHING:-** An empty string would be sent to the client in response.
      4. Secured Annotation:-When applied this annotation would check if the user is logged in or not. For this annotation to work               user should provide the name of a class as value to this annotation.In turn the class provided by the user should have                   implemented the `SecurityInterface`.The user should provide a URL as a string in ` Response class`.
      
+**For Better Understanding a sample code has been given in th folder:**`com.thinking.machines.CRUD`
